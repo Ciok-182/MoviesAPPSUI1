@@ -17,6 +17,9 @@
 		3462E5DD26EEB2E1000BD139 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5DC26EEB2E1000BD139 /* ImageLoader.swift */; };
 		3462E5DF26EEB321000BD139 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5DE26EEB321000BD139 /* Rating.swift */; };
 		3462E5E126EEB346000BD139 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E026EEB346000BD139 /* URLImage.swift */; };
+		3462E5E326EED22B000BD139 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E226EED22B000BD139 /* Movie.swift */; };
+		3462E5E526EED3EE000BD139 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E426EED3EE000BD139 /* HTTPClient.swift */; };
+		3462E5E726EEDB66000BD139 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E626EEDB66000BD139 /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		3462E5DC26EEB2E1000BD139 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		3462E5DE26EEB321000BD139 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		3462E5E026EEB346000BD139 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		3462E5E226EED22B000BD139 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3462E5E426EED3EE000BD139 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3462E5E626EEDB66000BD139 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +70,15 @@
 		3462E5BC26EEAF97000BD139 /* MoviesSUIAPP */ = {
 			isa = PBXGroup;
 			children = (
-				3462E5DB26EEB2C4000BD139 /* Views */,
-				3462E5DA26EEB2B6000BD139 /* Screens */,
-				3462E5D926EEB2AB000BD139 /* Extensions */,
-				3462E5D826EEB29E000BD139 /* Controls */,
-				3462E5D726EEB288000BD139 /* Loaders */,
-				3462E5D626EEB281000BD139 /* Services */,
-				3462E5D526EEB278000BD139 /* Models */,
 				3462E5D126EEB1B9000BD139 /* Utils */,
 				3462E5D426EEB265000BD139 /* View Models */,
+				3462E5D526EEB278000BD139 /* Models */,
+				3462E5D626EEB281000BD139 /* Services */,
+				3462E5D726EEB288000BD139 /* Loaders */,
+				3462E5D826EEB29E000BD139 /* Controls */,
+				3462E5D926EEB2AB000BD139 /* Extensions */,
+				3462E5DA26EEB2B6000BD139 /* Screens */,
+				3462E5DB26EEB2C4000BD139 /* Views */,
 				3462E5BF26EEAF97000BD139 /* SceneDelegate.swift */,
 				3462E5BD26EEAF97000BD139 /* AppDelegate.swift */,
 				3462E5C126EEAF97000BD139 /* ContentView.swift */,
@@ -110,6 +116,7 @@
 		3462E5D526EEB278000BD139 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3462E5E226EED22B000BD139 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 		3462E5D626EEB281000BD139 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3462E5E426EED3EE000BD139 /* HTTPClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 		3462E5D926EEB2AB000BD139 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3462E5E626EEDB66000BD139 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -234,7 +243,10 @@
 				3462E5BE26EEAF97000BD139 /* AppDelegate.swift in Sources */,
 				3462E5C026EEAF97000BD139 /* SceneDelegate.swift in Sources */,
 				3462E5DD26EEB2E1000BD139 /* ImageLoader.swift in Sources */,
+				3462E5E526EED3EE000BD139 /* HTTPClient.swift in Sources */,
 				3462E5C226EEAF97000BD139 /* ContentView.swift in Sources */,
+				3462E5E726EEDB66000BD139 /* URL+Extensions.swift in Sources */,
+				3462E5E326EED22B000BD139 /* Movie.swift in Sources */,
 				3462E5D326EEB229000BD139 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

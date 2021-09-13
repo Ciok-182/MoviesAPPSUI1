@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Ciok")
+            .onTapGesture {
+                HTTPClient().getMoviesBy(search: "Batman"){ result in
+                    
+                    switch result{
+                    case .success(let movies):
+                        print(movies)
+                    case .failure(let error):
+                        print(error.localizedDescription)
+                    }
+                    
+                }
+            }
     }
 }
 

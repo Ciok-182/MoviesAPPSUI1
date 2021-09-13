@@ -28,7 +28,7 @@ struct Rating: View {
                     .foregroundColor(Color.orange)
                     .onTapGesture {
                         self.rating = index
-                }
+                    }
             }
         }
     }
