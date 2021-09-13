@@ -23,6 +23,10 @@
 		3462E5EB26EEE015000BD139 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5EA26EEE015000BD139 /* MovieListScreen.swift */; };
 		3462E5ED26EEE1B0000BD139 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5EC26EEE1B0000BD139 /* MovieListView.swift */; };
 		3462E5EF26EEE35A000BD139 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5EE26EEE35A000BD139 /* View+Extensions.swift */; };
+		3462E5F226EEE8F5000BD139 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5F126EEE8F5000BD139 /* String+Extensions.swift */; };
+		3462E5F426EEEA1B000BD139 /* FailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5F326EEEA1B000BD139 /* FailedView.swift */; };
+		3462E5F626EEF982000BD139 /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5F526EEF982000BD139 /* ViewModelBase.swift */; };
+		3462E5F826EF143C000BD139 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5F726EF143C000BD139 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		3462E5EA26EEE015000BD139 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 		3462E5EC26EEE1B0000BD139 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		3462E5EE26EEE35A000BD139 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		3462E5F126EEE8F5000BD139 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		3462E5F326EEEA1B000BD139 /* FailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedView.swift; sourceTree = "<group>"; };
+		3462E5F526EEF982000BD139 /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
+		3462E5F726EF143C000BD139 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				3462E5E826EEDD3E000BD139 /* MovieListViewModel.swift */,
+				3462E5F526EEF982000BD139 /* ViewModelBase.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -157,6 +166,7 @@
 			children = (
 				3462E5E626EEDB66000BD139 /* URL+Extensions.swift */,
 				3462E5EE26EEE35A000BD139 /* View+Extensions.swift */,
+				3462E5F126EEE8F5000BD139 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -173,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				3462E5EC26EEE1B0000BD139 /* MovieListView.swift */,
+				3462E5F326EEEA1B000BD139 /* FailedView.swift */,
+				3462E5F726EF143C000BD139 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,10 +263,14 @@
 				3462E5DF26EEB321000BD139 /* Rating.swift in Sources */,
 				3462E5BE26EEAF97000BD139 /* AppDelegate.swift in Sources */,
 				3462E5C026EEAF97000BD139 /* SceneDelegate.swift in Sources */,
+				3462E5F826EF143C000BD139 /* LoadingView.swift in Sources */,
 				3462E5DD26EEB2E1000BD139 /* ImageLoader.swift in Sources */,
+				3462E5F626EEF982000BD139 /* ViewModelBase.swift in Sources */,
 				3462E5ED26EEE1B0000BD139 /* MovieListView.swift in Sources */,
 				3462E5E526EED3EE000BD139 /* HTTPClient.swift in Sources */,
+				3462E5F426EEEA1B000BD139 /* FailedView.swift in Sources */,
 				3462E5E926EEDD3E000BD139 /* MovieListViewModel.swift in Sources */,
+				3462E5F226EEE8F5000BD139 /* String+Extensions.swift in Sources */,
 				3462E5EB26EEE015000BD139 /* MovieListScreen.swift in Sources */,
 				3462E5EF26EEE35A000BD139 /* View+Extensions.swift in Sources */,
 				3462E5E726EEDB66000BD139 /* URL+Extensions.swift in Sources */,
