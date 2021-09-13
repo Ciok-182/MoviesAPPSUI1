@@ -20,6 +20,7 @@
 		3462E5E326EED22B000BD139 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E226EED22B000BD139 /* Movie.swift */; };
 		3462E5E526EED3EE000BD139 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E426EED3EE000BD139 /* HTTPClient.swift */; };
 		3462E5E726EEDB66000BD139 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E626EEDB66000BD139 /* URL+Extensions.swift */; };
+		3462E5E926EEDD3E000BD139 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462E5E826EEDD3E000BD139 /* MovieListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3462E5E226EED22B000BD139 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3462E5E426EED3EE000BD139 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3462E5E626EEDB66000BD139 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		3462E5E826EEDD3E000BD139 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		3462E5D426EEB265000BD139 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				3462E5E826EEDD3E000BD139 /* MovieListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				3462E5DD26EEB2E1000BD139 /* ImageLoader.swift in Sources */,
 				3462E5E526EED3EE000BD139 /* HTTPClient.swift in Sources */,
 				3462E5C226EEAF97000BD139 /* ContentView.swift in Sources */,
+				3462E5E926EEDD3E000BD139 /* MovieListViewModel.swift in Sources */,
 				3462E5E726EEDB66000BD139 /* URL+Extensions.swift in Sources */,
 				3462E5E326EED22B000BD139 /* Movie.swift in Sources */,
 				3462E5D326EEB229000BD139 /* Constants.swift in Sources */,
